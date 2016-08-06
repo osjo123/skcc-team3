@@ -5,12 +5,27 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Change"
         android:id="@+id/button3"
+        android:layout_gravity="bottom" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vibrate"
+        android:id="@+id/button4"
+        android:layout_gravity="bottom" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sound"
+        android:id="@+id/button5"
         android:layout_gravity="bottom" />
 
     <ImageView
         android:layout_width="151dp"
         android:layout_height="151dp"
         android:id="@+id/imageView" />
+
 </LinearLayout>
